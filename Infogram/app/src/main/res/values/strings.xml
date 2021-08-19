@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">Infogram</string>
-    <string name="correo">Correo</string>
-    <string name="nombre">Nombre</string>
-    <string name="usuario">Ususario</string>
-    <string name="contrasena">Contraseña</string>
-    <string name="confirmeContrasena">Confirme Contraseña</string>
-    <string name="Login">Unete</string>
 </resources>

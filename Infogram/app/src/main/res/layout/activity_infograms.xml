@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorFondo"
+    android:background="#6632c5"
     android:orientation="vertical"
     tools:context=".Infograms">
     <LinearLayout
@@ -45,7 +45,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="text"
                         android:hint="nombre de ususario"
-                        >
+                        android:background="#00">
 
                     </com.google.android.material.textfield.TextInputEditText>
                 </com.google.android.material.textfield.TextInputLayout>
@@ -57,7 +57,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPassword"
-
+                        android:background="#00"
                         android:hint="Contraseña">
 
                     </com.google.android.material.textfield.TextInputEditText>
@@ -67,9 +67,17 @@
                     android:layout_width="218dp"
                     android:layout_height="60dp"
                     android:layout_margin="95dp"
-                    android:backgroundTint="@color/colorBotton"
+                    android:backgroundTint="#7f45b6"
                     android:text="Ingresar"
                     android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No tienes una cuenta, crea una aqui"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
