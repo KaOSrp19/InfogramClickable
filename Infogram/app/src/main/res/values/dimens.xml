@@ -2,4 +2,11 @@
 <resources>
     <dimen name="imageView_layoudHeight">150dp</dimen>
     <dimen name="textView_textSize">18sp</dimen>
+
+    <dimen name="editText_textSize">18dp</dimen>
+
+
+    <dimen name="padding_create_account">40dp</dimen>
+    <dimen name="margiTop_create_account">35dp</dimen>
+    <dimen name="login_marginTop">30dp</dimen>
 </resources>
