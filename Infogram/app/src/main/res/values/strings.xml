@@ -6,5 +6,6 @@
     <string name="contrasena">Contraseña</string>
     <string name="confirmeContrasena">Confirme Contraseña</string>
     <string name="Login">Unete</string>
-    <string name="title_crear_cuenta">Crear cuenta</string>
+    <string name="title_crear_cuenta">Crear Cuenta</string>
+
 </resources>

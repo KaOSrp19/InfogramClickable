@@ -1,9 +1,10 @@
 package com.example.infogram;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Infograms extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class Infograms extends AppCompatActivity {
         setContentView(R.layout.activity_infograms);
     }
     public void goCreateAccount(View view){
-        System.out.println("____________________> go to vreate account");
+        Intent intent = new Intent(Infograms.this,crear_cuenta.class);
+        startActivity(intent);
     }
 }

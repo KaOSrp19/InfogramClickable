@@ -20,7 +20,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/imageView_layoudHeight"
-                android:src="@drawable/klp"
+                android:src="@drawable/kpl_1"
                 />
 
         </RelativeLayout>
@@ -64,12 +64,14 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
-                    android:layout_width="218dp"
-                    android:layout_height="60dp"
-                    android:layout_margin="95dp"
-                    android:backgroundTint="@color/colorBotton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margiTop_create_account"
+                    android:background="@color/colorBotton"
                     android:text="Ingresar"
-                    android:textColor="#ffffff"/>
+                    android:textColor="#fff">
+
+                </Button>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
