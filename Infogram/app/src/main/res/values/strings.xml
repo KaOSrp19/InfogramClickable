@@ -18,5 +18,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hola Mundo Buscar</string>
     <string name="hello_blan_fragment">Hola Mundo Yo</string>
+    <string name="title_home_fragment">Home</string>
 
 </resources>
