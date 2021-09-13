@@ -9,6 +9,7 @@
     <color name="editText_black">#000000</color>
     <color name="colorBotton">#7f45b6</color>
     <color name="colorFondo">#7C48D8</color>
-    <color name="background_cardview">#33744E81</color>
+    <color name="background_cardview">#330055FF</color>
     <color name="textColor_White">#98A4E4</color>
+    <color name="item_color">#FFFFFF</color>
 </resources>

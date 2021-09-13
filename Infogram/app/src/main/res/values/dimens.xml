@@ -10,7 +10,10 @@
     <dimen name="margiTop_create_account">35dp</dimen>
     <dimen name="login_marginTop">30dp</dimen>
     <dimen name="height_cardview">240dp</dimen>
-    <dimen name="corner_radius_cardview">20dp</dimen>
+    <dimen name="corner_radius_cardview">10dp</dimen>
     <dimen name="margin_cardview">10dp</dimen>
     <dimen name="padding_cardview">10dp</dimen>
+    <dimen name="paddingBotton_container">10dp</dimen>
+    <dimen name="height_botton_navigation_view">70dp</dimen>
+    <dimen name="margin_fab">20dp</dimen>
 </resources>

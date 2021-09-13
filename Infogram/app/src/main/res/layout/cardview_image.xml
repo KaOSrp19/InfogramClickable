@@ -13,7 +13,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/dbz"
+            android:src="@drawable/dbz_2"
             android:scaleType="centerCrop"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/carlos_kevin_cardview"
                 android:textSize="24sp"
-                android:textColor="@color/textColor_White"/>
+                android:textColor="@color/editText_black"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -38,14 +38,14 @@
                     android:layout_height="wrap_content"
                     android:text="@string/hace_cardview"
                     android:textSize="14sp"
-                    android:textColor="@color/textColor_White"/>
+                    android:textColor="@color/editText_black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/dias_cardview"
                     android:textSize="14sp"
-                    android:textColor="@color/textColor_White"/>
+                    android:textColor="@color/editText_black"/>
 
             </LinearLayout>
 
@@ -63,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/me_gusta_cardview"
                     android:textSize="16sp"
-                    android:textColor="@color/textColor_White"/>
+                    android:textColor="@color/editText_black"/>
 
             </LinearLayout>
 
