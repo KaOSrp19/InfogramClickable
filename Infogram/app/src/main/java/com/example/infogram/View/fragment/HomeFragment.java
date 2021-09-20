@@ -101,16 +101,16 @@ public class HomeFragment extends Fragment {
     public ArrayList<Image> buidImages(){
         ArrayList<Image> images = new ArrayList<>();
 
-        images.add(new Image("","Kevin Ramos","2 dias","1 me gusta"));
-        images.add(new Image("","Luis Peres","3 dias","5 me gusta"));
-        images.add(new Image("","Fernando Torres","6 dias","4 me gusta"));
-        images.add(new Image("","Mario Jose","5 dias","6 me gusta"));
-        images.add(new Image("","Miguel Angel","3 dias","2 me gusta"));
-        images.add(new Image("","Alex Moreira","4 dias","5 me gusta"));
-        images.add(new Image("","Ana Dewid","2 dias","3 me gusta"));
-        images.add(new Image("","Antonio Banderas","2 dias","8 me gusta"));
-        images.add(new Image("","Andrea Laura","6 dias","3 me gusta"));
-        images.add(new Image("","Luisa Garsia","9 dias","1 me gusta"));
+        images.add(new Image("https://www.comparaonline.com.co/blog-statics/co/uploads/2017/03/lugares-turisticos-bolivia-salar.png","Kevin Ramos","2 dias","1 me gusta"));
+        images.add(new Image("https://lugaresturisticos365.com/wp-content/uploads/mejores-lugares-turisticos-de-bolivia.jpg","Luis Peres","3 dias","5 me gusta"));
+        images.add(new Image("https://boliviaturistica.com/wp-content/uploads/2019/06/mejores-sitios-turisticos-bolivia-parque-nacional-sajama.jpg","Fernando Torres","6 dias","4 me gusta"));
+        images.add(new Image("https://boliviamia.net/Images/Tourpics/atop-potosi-01.jpg","Mario Jose","5 dias","6 me gusta"));
+        images.add(new Image("https://queverenz.com/wp-content/uploads/2016/11/Que-cosas-ver-hacer-en-bolivia-lugares-sitios-puntos-destinos-turismo-dias.jpg","Miguel Angel","3 dias","2 me gusta"));
+        images.add(new Image("https://boliviadventure.com/wp-content/uploads/2017/11/misiones-jesu%C3%ADticas-e1537550828843.jpg","Alex Moreira","4 dias","5 me gusta"));
+        images.add(new Image("https://fundacion-milenio.org/wp-content/uploads/2018/11/Econom%C3%ADa-de-Potos%C3%AD-va-al-ritmo-de-la-miner%C3%ADa.jpg","Ana Dewid","2 dias","3 me gusta"));
+        images.add(new Image("https://www.surfingtheplanet.com/wp-content/uploads/2012/06/DSC2653a.jpg","Antonio Banderas","2 dias","8 me gusta"));
+        images.add(new Image("https://www.tangol.com/Fotos/Tours/city-tour-sucre_2704_201812311040216.Mobile.JPG","Andrea Laura","6 dias","3 me gusta"));
+        images.add(new Image("https://www.surfingtheplanet.com/wp-content/uploads/2012/06/pano_sanfelipneri1a.jpg","Luisa Garsia","9 dias","1 me gusta"));
         return images;
     }
 }
