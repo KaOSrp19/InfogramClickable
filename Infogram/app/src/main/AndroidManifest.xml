@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.infogram">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--android:theme="@style/AppTheme"  esta linea ba adentro sobre esta linea-->
 
-        <activity android:name=".View.Container_activity"></activity>
+        <!-- android:theme="@style/AppTheme"  esta linea ba adentro sobre esta linea -->
+        <activity android:name=".View.Container_activity" />
         <activity android:name=".Infograms">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +27,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Infograms" />
+        </activity>
+
+        <activity android:name=".View.ImageDetailActivity"
+            android:parentActivityName=".View.Container_activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".View.Container_activity" />
+
         </activity>
     </application>
 
